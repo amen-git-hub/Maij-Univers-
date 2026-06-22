@@ -1,0 +1,24 @@
+PROMPT POUR RECRÉER CE DESIGN
+
+Crée une landing page moderne pour une agence de tourisme appelée “Maij Univers”.
+Utilise le logo Maij Univers avec une identité visuelle bleu ciel (#26AAE8), bleu marine foncé (#172D46), blanc et orange pour les boutons (#FF7A21).
+
+Style général :
+- Design premium, moderne, propre et inspirant.
+- Mise en page proche d’un site d’agence de voyage.
+- Header blanc avec logo à gauche, menu horizontal au centre, icône recherche et bouton “Login / Sign Up” à droite.
+- Grande section hero avec image de paysage côtier ou village méditerranéen en arrière-plan.
+- Carte blanche centrée sur l’image avec un grand titre en majuscules :
+  “EXPLORE LE MONDE. TON AVENTURE T’ATTEND.”
+- Sous-titre court et formulaire de recherche avec Destination, Dates, Voyageurs et bouton orange “Find Trips”.
+- Sections en dessous :
+  1. Popular Destinations avec 6 cartes en grille, image, titre, description courte, prix.
+  2. Exclusive Deals & Offers avec 3 cartes, image, description et bouton orange “Book Now”.
+  3. Travel Categories avec icônes : Adventure, Relaxation, Culture, Family, Luxury.
+  4. Latest Stories avec 3 articles de blog.
+  5. Why Maij Univers avec 3 avantages : 24/7 Support, Best Price Guarantee, Secure Booking.
+  6. Client Testimonials avec 3 petits témoignages.
+- Cartes avec coins arrondis, ombres douces, spacing propre.
+- Typographie sans-serif moderne, titres en gras.
+- Responsive pour mobile.
+- Ambiance visuelle : voyage, plage, montagne, ville européenne, aventure, luxe accessible.

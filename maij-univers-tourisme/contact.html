@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n-title="contact.meta.title">Contact - Maij</title>
+  <meta name="description" data-i18n-content="contact.meta.desc" content="Demandez un devis ou réservez votre séjour tout inclus au Togo et au Bénin. Réponse rapide par WhatsApp ou email." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip.content">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/maij-logo.jpeg" alt="Logo Maij" />
+      </a>
+
+      <div class="lang-switch">
+        <select class="lang-select" aria-label="Choisir la langue / Choose language">
+          <option value="fr">FR</option>
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+          <option value="de">DE</option>
+        </select>
+      </div>
+
+      <button class="menu-btn" aria-label="Ouvrir le menu" data-i18n-aria-label="menu.open" aria-expanded="false">☰</button>
+
+      <div class="nav-overlay"></div>
+
+      <nav class="navbar">
+        <button class="nav-close" aria-label="Fermer le menu" data-i18n-aria-label="menu.close">✕</button>
+        <a href="index.html" data-i18n="nav.accueil">Accueil</a>
+        <a href="a-propos.html" data-i18n="nav.apropos">À propos</a>
+        <a href="sejours.html" data-i18n="nav.sejours">Nos séjours</a>
+        <a href="destinations.html" data-i18n="nav.destination">Destination</a>
+        <a href="blog.html" data-i18n="nav.blog">Blog</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        <a href="contact.html" class="btn btn-primary nav-cta" data-i18n="nav.reserver">Réserver</a>
+      </nav>
+
+      <a href="contact.html" class="btn btn-primary header-cta" data-i18n="nav.reserver">Réserver</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-heading">
+      <div class="page-heading-inner">
+        <p class="eyebrow" data-i18n="contact.hero.eyebrow">Contact</p>
+        <h1 data-i18n="contact.hero.title">Parlons de votre séjour</h1>
+        <p class="page-heading-text" data-i18n="contact.hero.text">
+          Une question, une demande de devis, une envie de personnaliser votre séjour ?
+          Écrivez-nous : nous répondons vite et avec plaisir.
+        </p>
+        <p class="page-heading-text" data-i18n-html="contact.hero.faq_hint">
+          Avant d'écrire, la réponse se trouve peut-être déjà dans notre
+          <a href="faq.html" style="color:var(--primary);font-weight:800;">FAQ</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="contact-grid reveal-group">
+
+        <div class="contact-info reveal">
+          <h2 data-i18n="contact.info.title">Nos coordonnées</h2>
+          <ul>
+            <li><span data-i18n="contact.info.whatsapp_label">WhatsApp / Téléphone :</span> <span class="todo" data-i18n="todo.number">[numéro]</span></li>
+            <li><span data-i18n="footer.email_label">Email :</span> <span class="todo" data-i18n="todo.email">[email]</span></li>
+            <li data-i18n="contact.info.based">Basés à : Lomé, Togo</li>
+          </ul>
+          <p style="font-size:13px;color:#c9d4e3;margin-bottom:16px;" data-i18n="contact.info.whatsapp_tip">
+            Le canal le plus rapide pour réserver dans la région : WhatsApp.
+          </p>
+          <a href="#" class="btn btn-whatsapp btn-block" data-i18n="contact.info.whatsapp_btn">Discuter sur WhatsApp</a>
+        </div>
+
+        <form class="contact-form reveal" aria-label="Formulaire de demande de devis">
+          <h2 style="font-size:17px;font-weight:900;" data-i18n="contact.form.title">Demande de devis</h2>
+
+          <div class="form-row form-row--2">
+            <div class="form-field">
+              <label for="nom" data-i18n="contact.form.name">Nom et prénom</label>
+              <input type="text" id="nom" name="nom" required autocomplete="name" />
+            </div>
+            <div class="form-field">
+              <label for="email" data-i18n="contact.form.email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" />
+            </div>
+          </div>
+
+          <div class="form-row form-row--2">
+            <div class="form-field">
+              <label for="telephone" data-i18n="contact.form.phone">Téléphone / WhatsApp</label>
+              <input type="tel" id="telephone" name="telephone" autocomplete="tel" />
+            </div>
+            <div class="form-field">
+              <label for="voyageurs" data-i18n="contact.form.travelers">Nombre de voyageurs</label>
+              <input type="number" id="voyageurs" name="voyageurs" min="1" />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="sejour" data-i18n="contact.form.sejour">Séjour qui vous intéresse</label>
+            <select id="sejour" name="sejour">
+              <option value="decouverte-express" data-i18n="common.pack1.title">Découverte Express</option>
+              <option value="culture-nature" data-i18n="common.pack2.title">Culture &amp; Nature</option>
+              <option value="lome-cotonou-court" data-i18n="common.pack3.title">Lomé + Cotonou (court)</option>
+              <option value="lome-cotonou-long" data-i18n="common.pack4.title">Lomé + Cotonou (long)</option>
+              <option value="je-ne-sais-pas" selected data-i18n="contact.form.unsure">Je ne sais pas encore</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="dates" data-i18n="contact.form.dates">Dates ou période envisagée</label>
+            <input type="text" id="dates" name="dates" placeholder="Ex : juillet 2026" data-i18n-placeholder="contact.form.dates_placeholder" />
+          </div>
+
+          <div class="form-field">
+            <label for="message" data-i18n="contact.form.message">Votre message</label>
+            <textarea id="message" name="message" placeholder="Parlez-nous de votre projet de voyage…" data-i18n-placeholder="contact.form.message_placeholder"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" data-i18n="contact.form.submit">Envoyer ma demande</button>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div style="background:#fff;border-radius:10px;padding:6px;width:130px;">
+          <img src="assets/maij-logo.jpeg" alt="Logo Maij" />
+        </div>
+        <p data-i18n="footer.tagline">Maij - Voyages tout inclus au Togo et au Bénin.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.quicklinks">Liens rapides</h4>
+        <ul>
+          <li><a href="sejours.html" data-i18n="nav.sejours">Nos séjours</a></li>
+          <li><a href="destinations.html" data-i18n="nav.destinations">Destinations</a></li>
+          <li><a href="a-propos.html" data-i18n="nav.apropos">À propos</a></li>
+          <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact_title">Contact</h4>
+        <ul>
+          <li><span data-i18n="footer.whatsapp_label">WhatsApp :</span> <span class="todo" data-i18n="todo.number">[numéro]</span></li>
+          <li><span data-i18n="footer.email_label">Email :</span> <span class="todo" data-i18n="todo.email">[email]</span></li>
+          <li data-i18n="footer.based">Basés à Lomé, Togo</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.legal">© Maij 2026 · Mentions légales · Politique de confidentialité</p>
+      <div style="display:flex;gap:14px;">
+        <a href="#" class="todo" data-i18n="todo.instagram">[Instagram]</a>
+        <a href="#" class="todo" data-i18n="todo.facebook">[Facebook]</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="float-cta">
+    <a href="#" class="btn btn-whatsapp"><span class="label">WhatsApp</span><span aria-hidden="true">💬</span></a>
+    <a href="contact.html" class="btn btn-primary"><span class="label" data-i18n="nav.reserver">Réserver</span></a>
+  </div>
+
+  <script src="translations.js"></script>
+  <script src="i18n.js"></script>
+  <script src="animations.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.querySelector(".contact-form")?.addEventListener("submit", function (event) {
+      event.preventDefault();
+      alert(window.maijT ? window.maijT("contact.form.success") : "Merci ! Votre demande a bien été notée.");
+    });
+  </script>
+</body>
+</html>

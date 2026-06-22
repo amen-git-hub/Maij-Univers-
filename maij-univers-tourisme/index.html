@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n-title="home.meta.title">Maij - Voyages tout inclus au Togo et au Bénin</title>
+  <meta name="description" data-i18n-content="home.meta.desc" content="Séjours tout inclus au Togo et au Bénin : plages, culture vaudou, marchés et nature tropicale. Réservation simple, organisée par une équipe locale." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip.content">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/maij-logo.jpeg" alt="Logo Maij" />
+      </a>
+
+      <div class="lang-switch">
+        <select class="lang-select" aria-label="Choisir la langue / Choose language">
+          <option value="fr">FR</option>
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+          <option value="de">DE</option>
+        </select>
+      </div>
+
+      <button class="menu-btn" aria-label="Ouvrir le menu" data-i18n-aria-label="menu.open" aria-expanded="false">☰</button>
+
+      <div class="nav-overlay"></div>
+
+      <nav class="navbar">
+        <button class="nav-close" aria-label="Fermer le menu" data-i18n-aria-label="menu.close">✕</button>
+        <a href="index.html" data-i18n="nav.accueil">Accueil</a>
+        <a href="a-propos.html" data-i18n="nav.apropos">À propos</a>
+        <a href="sejours.html" data-i18n="nav.sejours">Nos séjours</a>
+        <a href="destinations.html" data-i18n="nav.destination">Destination</a>
+        <a href="blog.html" data-i18n="nav.blog">Blog</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        <a href="contact.html" class="btn btn-primary nav-cta" data-i18n="nav.reserver">Réserver</a>
+      </nav>
+
+      <a href="contact.html" class="btn btn-primary header-cta" data-i18n="nav.reserver">Réserver</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero--transparent page-hero-bg-beach">
+      <div class="hero-slideshow" aria-hidden="true">
+        <div class="hero-slide" style="background-image:url('assets/img/hero-plage-lome.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('assets/img/culture-vaudou.png')"></div>
+        <div class="hero-slide" style="background-image:url('assets/img/lome-bord-de-mer.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('assets/img/cascade-kpalime.jpg')"></div>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="home.hero.eyebrow">Maij · Togo &amp; Bénin</p>
+        <h1 data-i18n="home.hero.title">Le Togo et le Bénin, autrement.</h1>
+        <p class="hero-text" data-i18n="home.hero.text">
+          Des séjours tout compris, pensés par des connaisseurs du terrain, pour vivre
+          l'Afrique de l'Ouest en toute sérénité - plages, culture vaudou, marchés colorés
+          et nature tropicale.
+        </p>
+        <div class="btn-row">
+          <a href="sejours.html" class="btn btn-primary btn-block hero-main-cta" data-i18n="home.hero.btn1">Découvrir nos séjours</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="section-title section-title--center">
+        <h2 data-i18n="home.why.title">Pourquoi voyager avec Maij</h2>
+      </div>
+      <div class="why-grid reveal-group carousel-mobile">
+        <div class="reveal">
+          <span>🤝</span>
+          <h3 data-i18n="home.why.1.title">Une équipe locale, sur place</h3>
+          <p data-i18n="home.why.1.text">Nous vivons et travaillons au Togo. Nos guides connaissent chaque ruelle de Lomé, chaque histoire de Togoville. Vous ne suivez pas un circuit anonyme : vous êtes accueilli comme un invité.</p>
+        </div>
+        <div class="reveal">
+          <span>💯</span>
+          <h3 data-i18n="home.why.2.title">Le vrai « tout inclus »</h3>
+          <p data-i18n="home.why.2.text">Hébergement, repas, transferts et excursions sont compris dès le premier euro. Un seul prix, annoncé clairement, sans mauvaise surprise une fois sur place.</p>
+        </div>
+        <div class="reveal">
+          <span>👥</span>
+          <h3 data-i18n="home.why.3.title">Des séjours à taille humaine</h3>
+          <p data-i18n="home.why.3.text">Petits groupes, rythme maîtrisé, contact direct avec les habitants et les artisans. La découverte plutôt que le tourisme de masse.</p>
+        </div>
+        <div class="reveal">
+          <span>⚡</span>
+          <h3 data-i18n="home.why.4.title">Une réservation simple</h3>
+          <p data-i18n="home.why.4.text">Un message, une réponse rapide. Nous organisons tout : il ne vous reste qu'à profiter.</p>
+        </div>
+      </div>
+      <div class="carousel-dots" aria-hidden="true"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-title section-title--center">
+        <h2 data-i18n="home.formules.title">Nos formules (aperçu)</h2>
+        <a href="sejours.html" class="link" data-i18n="home.formules.seeall">Voir tout</a>
+      </div>
+      <p class="section-lead" data-i18n="home.formules.lead">Quatre séjours, du court week-end découverte au grand circuit Togo-Bénin. Tous tout inclus.</p>
+
+      <div class="cards cards--4 reveal-group">
+        <article class="card reveal">
+          <div class="card-body">
+            <div class="card-meta"><span data-i18n="home.pack1.duration">✨ 5 j / 4 n</span><span data-i18n="common.togo">Togo</span></div>
+            <h3 data-i18n="common.pack1.title">Découverte Express</h3>
+            <p data-i18n="home.pack1.desc">L'essentiel du Togo en quelques jours : Lomé, Togoville, plage et artisanat.</p>
+            <div class="price-tag">
+              <div><span class="price-label" data-i18n="common.price_from">Tout inclus, à partir de</span><br /><span class="price">500 €</span></div>
+            </div>
+            <a href="sejours.html#pack-1" class="btn btn-primary btn-block" data-i18n="home.pack.cta">Voir le programme</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-body">
+            <div class="card-meta"><span data-i18n="home.pack2.duration">🌿 7 j / 6 n</span><span data-i18n="common.togo">Togo</span></div>
+            <h3 data-i18n="common.pack2.title">Culture &amp; Nature</h3>
+            <p data-i18n="home.pack2.desc">Cascades de Kpalimé, forêt tropicale, lac Togo et soirées festives.</p>
+            <div class="price-tag">
+              <div><span class="price-label" data-i18n="common.price_from">Tout inclus, à partir de</span><br /><span class="price">700 €</span></div>
+            </div>
+            <a href="sejours.html#pack-2" class="btn btn-primary btn-block" data-i18n="home.pack.cta">Voir le programme</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-body">
+            <div class="card-meta"><span data-i18n="home.pack3.duration">🏖️ 7 j / 6 n</span><span data-i18n="common.togo_benin">Togo + Bénin</span></div>
+            <h3 data-i18n="common.pack3.title">Lomé + Cotonou (court)</h3>
+            <p data-i18n="home.pack3.desc">Le meilleur des deux capitales, avec la Route des Esclaves à Ouidah.</p>
+            <div class="price-tag">
+              <div><span class="price-label" data-i18n="common.price_from">Tout inclus, à partir de</span><br /><span class="price">800 €</span></div>
+            </div>
+            <a href="sejours.html#pack-3" class="btn btn-primary btn-block" data-i18n="home.pack.cta">Voir le programme</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-body">
+            <div class="card-meta"><span data-i18n="home.pack4.duration">🌟 10 j / 9 n</span><span data-i18n="common.togo_benin">Togo + Bénin</span></div>
+            <h3 data-i18n="common.pack4.title">Lomé + Cotonou (long)</h3>
+            <p data-i18n="home.pack4.desc">Le grand circuit : culture, nature, histoire et détente, sans se presser.</p>
+            <div class="price-tag">
+              <div><span class="price-label" data-i18n="common.price_from">Tout inclus, à partir de</span><br /><span class="price">1 030 €</span></div>
+            </div>
+            <a href="sejours.html#pack-4" class="btn btn-primary btn-block" data-i18n="home.pack.cta">Voir le programme</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="btn-row">
+        <a href="sejours.html" class="btn btn-secondary" data-i18n="home.formules.cta">Voir tous les séjours en détail</a>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="section-title section-title--center">
+        <h2 data-i18n="home.destinations.title">Nos destinations</h2>
+        <a href="destinations.html" class="link" data-i18n="home.destinations.explore">Explorer</a>
+      </div>
+      <div class="cards cards--2 reveal-group">
+        <article class="card reveal">
+          <img src="assets/img/lome-bord-de-mer.jpg" alt="Bord de mer à Lomé, capitale du Togo" data-i18n-alt="home.destinations.togo_alt" loading="lazy" />
+          <div class="card-body">
+            <h3 data-i18n="common.togo">Togo</h3>
+            <p data-i18n="home.destinations.togo_text">Un pays-mosaïque coincé entre océan et collines. Lomé et sa plage urbaine, le marché des fétiches, le lac Togo berceau du vaudou, les cascades verdoyantes de Kpalimé.</p>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="assets/img/maij-visuel.jpeg" alt="Découvrez le Togo : plage, cascade et pirogue sur le lac" data-i18n-alt="home.destinations.benin_alt" loading="lazy" />
+          <div class="card-body">
+            <h3 data-i18n="common.benin">Bénin</h3>
+            <p data-i18n="home.destinations.benin_text">Le voisin chargé d'histoire. Le gigantesque marché Dantokpa de Cotonou, et Ouidah, haut lieu de mémoire avec sa Route des Esclaves et sa Porte du Non-Retour.</p>
+          </div>
+        </article>
+      </div>
+      <div class="btn-row">
+        <a href="destinations.html" class="btn btn-secondary" data-i18n="home.destinations.cta">Explorer les destinations</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <h2 data-i18n="home.testimonials.title">Ce que disent nos voyageurs</h2>
+      </div>
+      <div class="testimonial-grid reveal-group carousel-mobile">
+        <article class="reveal">
+          <div class="avatar">?</div>
+          <h3 class="todo" data-i18n="todo.testimonial_name">[Prénom], [Pays]</h3>
+          <p class="todo" data-i18n="todo.testimonial_1">[Témoignage authentique à récupérer auprès d'anciens clients.]</p>
+        </article>
+        <article class="reveal">
+          <div class="avatar">?</div>
+          <h3 class="todo" data-i18n="todo.testimonial_name">[Prénom], [Pays]</h3>
+          <p class="todo" data-i18n="todo.testimonial_2">[Deuxième témoignage à récupérer.]</p>
+        </article>
+        <article class="reveal">
+          <div class="avatar">?</div>
+          <h3 class="todo" data-i18n="todo.testimonial_name">[Prénom], [Pays]</h3>
+          <p class="todo" data-i18n="todo.testimonial_3">[Troisième témoignage à récupérer.]</p>
+        </article>
+      </div>
+      <div class="carousel-dots" aria-hidden="true"></div>
+    </section>
+
+    <section class="section section--white reveal" style="text-align:center;">
+      <h2 style="font-size:24px;font-weight:900;margin-bottom:10px;" data-i18n="home.final.title">Prêt à partir ?</h2>
+      <p class="section-lead" style="margin-inline:auto;" data-i18n="home.final.text">Dites-nous vos dates et vos envies, nous nous occupons du reste.</p>
+      <div class="btn-row" style="justify-content:center;">
+        <a href="contact.html" class="btn btn-primary" data-i18n="home.final.btn1">Réserver mon séjour</a>
+        <a href="#" class="btn btn-whatsapp" data-i18n="home.final.btn2">Nous écrire sur WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div style="background:#fff;border-radius:10px;padding:6px;width:130px;">
+          <img src="assets/maij-logo.jpeg" alt="Logo Maij" />
+        </div>
+        <p data-i18n="footer.tagline">Maij - Voyages tout inclus au Togo et au Bénin.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.quicklinks">Liens rapides</h4>
+        <ul>
+          <li><a href="sejours.html" data-i18n="nav.sejours">Nos séjours</a></li>
+          <li><a href="destinations.html" data-i18n="nav.destinations">Destinations</a></li>
+          <li><a href="a-propos.html" data-i18n="nav.apropos">À propos</a></li>
+          <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact_title">Contact</h4>
+        <ul>
+          <li><span data-i18n="footer.whatsapp_label">WhatsApp :</span> <span class="todo" data-i18n="todo.number">[numéro]</span></li>
+          <li><span data-i18n="footer.email_label">Email :</span> <span class="todo" data-i18n="todo.email">[email]</span></li>
+          <li data-i18n="footer.based">Basés à Lomé, Togo</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.legal">© Maij 2026 · Mentions légales · Politique de confidentialité</p>
+      <div style="display:flex;gap:14px;">
+        <a href="#" class="todo" data-i18n="todo.instagram">[Instagram]</a>
+        <a href="#" class="todo" data-i18n="todo.facebook">[Facebook]</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="float-cta">
+    <a href="#" class="btn btn-whatsapp"><span class="label">WhatsApp</span><span aria-hidden="true">💬</span></a>
+    <a href="contact.html" class="btn btn-primary"><span class="label" data-i18n="nav.reserver">Réserver</span></a>
+  </div>
+
+  <script src="translations.js"></script>
+  <script src="i18n.js"></script>
+  <script src="animations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
