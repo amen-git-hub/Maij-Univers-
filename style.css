@@ -1064,8 +1064,26 @@ ul {
   box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
 }
 
-.why-grid span {
-  font-size: 30px;
+/* Icônes ligne sobres (remplacent les emojis) */
+.maij-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 14px;
+  border-radius: 16px;
+  background: rgba(38, 170, 232, 0.1);
+  color: var(--primary);
+}
+
+.maij-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .why-grid h3,
@@ -1081,6 +1099,37 @@ ul {
   font-size: 13px;
   color: var(--muted);
   line-height: 1.6;
+}
+
+/* Avis clients : étoiles + carte plus crédible */
+.stars {
+  color: #ffb703;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.testimonial-grid blockquote {
+  margin: 0;
+}
+
+.testimonial-author strong {
+  display: block;
+  color: var(--dark);
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.testimonial-author span {
+  display: block;
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 3px;
+}
+
+.testimonial-grid article {
+  text-align: center;
 }
 
 .avatar {
