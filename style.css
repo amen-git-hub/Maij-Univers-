@@ -745,6 +745,20 @@ ul {
   object-fit: cover;
 }
 
+/* Image en tête de carte (packs séjours) */
+.card-img {
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+
 .card-body {
   padding: 18px;
   display: flex;
@@ -1261,6 +1275,27 @@ ul {
   line-height: 1.6;
 }
 
+/* Image illustrative pour blog et a-propos */
+.article-img {
+  border-radius: 14px;
+  overflow: hidden;
+  height: 280px;
+  margin-bottom: 28px;
+}
+
+.article-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .article-img {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+}
+
 /* ---------- Blog ---------- */
 
 .article-content {
@@ -1554,6 +1589,10 @@ ul {
     box-shadow: 0 16px 32px rgba(15, 23, 42, 0.18);
   }
 
+  .card:hover .card-img img {
+    transform: scale(1.03);
+  }
+
   .destination-block img {
     transition: transform var(--dur-slow) var(--ease-out);
   }
@@ -1662,5 +1701,13 @@ body {
   .carousel-mobile > * {
     flex: 0 0 calc(100% - 56px);
     scroll-snap-align: center;
+  }
+}
+
+/* Touch feedback discret sur mobile (pas de hover collant au doigt) */
+@media (hover: none) {
+  .card:active {
+    transform: scale(0.985);
+    transition: transform 150ms ease;
   }
 }
